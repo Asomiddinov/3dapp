@@ -1,0 +1,50 @@
+{% extends 'index.html' %}
+<style>
+</style>
+{% block content %}
+<!-- item with one photo -->
+<!-- <img src="/static/01.jpg" alt="" class="container-fluid" width="1100" height="850"> -->
+<br>
+{{ notification.msg }}
+<!-- using cards with grid -->
+<div class="text-center row">
+    <div class="card container" style="width: 45rem;">
+        <img src="/static/01.jpg" class="card-img-bottom" alt="..." usemap="#map1">
+        <map name="map1">
+            <area shape="rect" coords="50,50,50,50" href="" alt="">
+        </map>
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <!-- <a href="#" class="btn btn-primary">Go</a> -->
+        </div>
+    </div>
+    <div class="card container" style="width: 45rem;">
+        <img src="/static/02.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <!-- <a href="#" class="btn btn-primary">Go</a> -->
+        </div>
+    </div>
+</div>
+
+<!-- <div class="text-center row">
+    <div class="card container" style="width: 45rem;">
+        <img src="/static/03.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary">Go</a> -->
+<!-- </div>
+</div>
+<div class="card container" style="width: 45rem;">
+    <img src="/static/04.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text"></p> -->
+<!-- <a href="#" class="btn btn-primary">Go</a> -->
+</div>
+</div>
+</div>
+{% endblock %}
